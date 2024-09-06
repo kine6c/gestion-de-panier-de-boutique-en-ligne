@@ -1,0 +1,418 @@
+body{
+    position: relative;
+    background-color: rgb(220, 184, 140);
+    
+}
+
+.rectangle1{
+    position: relative;
+    width: auto;
+    height: 100px;
+    background-color: rgb(247, 227, 202);
+   
+}
+
+#imgpanier{
+color: blue;
+position: relative;
+width: 25px;
+top: 68px;
+left: 735px;
+z-index: 2;
+     
+ }
+
+.iconerecher{
+position: relative;
+width: 22px;
+top: 68px;
+left: 875px;
+z-index: 2;
+}
+.iconeoptions{
+position: relative;
+width: 25px;
+top: 68px;
+left: 800px;
+z-index: 2;
+}
+#title1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+color: rgba(8, 74, 74, 0.457);
+font-size: x-large;
+font-style: italic;
+font-weight: 1000;
+
+}
+.trait1{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    right: 10px;
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 97%;
+    
+}
+
+/* PARTIE BOUTIQUE */
+#boutique{
+    position: absolute;
+    top: 80px;
+    padding: 20px;
+   height: 1200px;
+}
+#produits{
+    position: absolute;
+}
+.Accueil{
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 100px;
+}   
+
+
+nav a {
+    color: black; 
+    transition: color 0.3s ease; 
+    text-decoration: none;
+   
+    
+}
+nav {
+    
+    margin-top: 25px;
+    width: 1030px;
+    
+
+}
+nav a:hover {
+    color: blue;
+}
+
+
+.services {
+    font-size: large;
+    margin-right: 100px;
+    
+}
+
+.contact {
+    font-size: large;
+    margin-right: 100px;
+} 
+
+
+
+#paragraph1{
+    margin-left: 15px;
+    width: 600px;
+}
+
+
+.box-mil{
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+}
+.nombre{
+    width: 43px;
+    height: 25px;
+   margin-right: 20px;
+   margin-top: 15px;
+}
+.box-mil img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.box-mil h2 {
+    font-size: 20px;
+}
+
+.box-mil p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.box-mil .prix {
+    font-weight: bold;
+    color: green;
+}
+
+
+.box-mil .butt-panier{
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(82, 175, 247);
+    padding: 0;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 2px;
+    top: 455px;
+        width: 32px;
+        height: 30px;
+    cursor: pointer;
+}
+.butt-panier img{
+    width: 27px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    
+}
+     .box-mil .butt-panier:hover{
+        background-color: darkblue;
+        
+     }
+
+
+
+.box-sorgho{
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.box-sorgho img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+    
+}
+
+.box-sorgho h2 {
+    font-size: 20px;
+}
+
+.box-sorgho p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.box-sorgho .prix {
+    font-weight: bold;
+    color: green;
+}
+
+
+.box-sorgho .butt-panier{
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(82, 175, 247);
+    padding: 0;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 2px;
+    top: 480px;
+        width: 32px;
+        height: 30px;
+    cursor: pointer;
+}
+.butt-panier img{
+    width: 27px;
+    height: 32px;
+    
+    justify-content: center;
+    align-items: center; 
+    
+    
+} 
+     .box-sorgho .butt-panier:hover{
+        background-color: darkblue;
+        
+     }
+
+
+/* fin de sorgho */
+.box-thiakry{
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+    top: 550px;
+}
+
+.box-thiakry img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.box-thiakry h2 {
+    font-size: 20px;
+}
+
+.box-thiakry p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.box-thiakry .prix {
+    font-weight: bold;
+    color: green;
+}
+
+.box-thiakry .butt-panier{
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(82, 175, 247);
+    padding: 0;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 2px;
+    top: 405px;
+        width: 32px;
+        height: 30px;
+    cursor: pointer;
+}
+.butt-panier img{
+    width: 27px;
+    height: 32px;
+    
+    justify-content: center;
+    align-items: center; 
+    
+    
+} 
+     .box-thiakry .butt-panier:hover{
+        background-color: darkblue;
+        
+     }
+
+
+.box-athieke{
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+    top: 550px;
+    margin-left: 300px;
+}
+
+.box-athieke img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.box-athieke h2 {
+    font-size: 20px;
+}
+
+.box-athieke p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.box-athieke .prix {
+    font-weight: bold;
+    color: green;
+}
+
+.box-athieke .butt-panier{
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(82, 175, 247);
+    padding: 0;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 2px;
+    top: 455px;
+        width: 32px;
+        height: 30px;
+    cursor: pointer;
+}
+.butt-panier img{
+    width: 27px;
+    height: 32px;
+    
+    justify-content: center;
+    align-items: center; 
+    
+    
+} 
+     .box-athieke .butt-panier:hover{
+        background-color: darkblue;
+        
+     }
+
+
+
+
+
+/* PARTIE PANIER */
+
+#zonepanier h1{
+    width: auto;
+    padding: 20px ;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: oblique;
+    background-color: brown;
+}
+#zonepanier h2{
+    font-weight: 500;
+    width:auto;
+    top: 200px;
+    left: 0px;
+    margin-left: 70px;
+}
+
+#zonepanier{
+position: absolute;
+top: 195px;
+background-color: rgba(0, 0, 22, 0.116);
+width: auto;
+height: auto;
+
+right: -1px;
+border: 1.5px solid rgba(0, 0, 22, 0.116);
+}
+
+
+#zonepanier #total{
+    background-color:rgb(0,128,0);
+    top: 20px;
+    border: none;
+    width: 590px;
+    height: 20px;
+    padding: 5px 10px;
+
+
+}
+#zonepanier #prixtotal{
+    margin-left: 15px;
+    display: inline;
+}
+#liste-panier{
+    height: auto;
+    color:rgba(228, 28, 6, 0.886);
+   list-style-type: none;
+}
